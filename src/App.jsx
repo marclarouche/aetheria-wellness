@@ -153,9 +153,9 @@ function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Service 1 */}
-            <div className="reveal-up group bg-slate-950/80 p-10 border border-slate-800 hover:border-neon-emerald/50 transition-all duration-800 rounded-sm relative overflow-hidden">
+            <div className="reveal-up group bg-slate-950/80 p-10 border border-slate-800 hover:border-neon-emerald/50 transition-all duration-800 rounded-sm relative overflow-hidden shake-on-hover">
               <div className="absolute top-0 right-0 w-32 h-32 bg-neon-emerald/10 blur-2xl rounded-full group-hover:bg-neon-emerald/20 transition-all duration-1000"></div>
-              <div className="text-neon-emerald mb-6 group-hover:text-glow-emerald transition-all duration-500">
+              <div className="text-neon-emerald mb-6 group-hover:text-glow-emerald transition-all duration-500 icon-shake inline-block">
                 <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
               </div>
               <h3 className="text-2xl font-heading font-bold text-white mb-3">Cryo-Recovery</h3>
@@ -166,9 +166,9 @@ function App() {
             </div>
 
             {/* Service 2 */}
-            <div className="reveal-up group bg-slate-950/80 p-10 border border-slate-800 hover:border-neon-violet/50 transition-all duration-800 rounded-sm relative overflow-hidden" style={{ transitionDelay: '100ms' }}>
+            <div className="reveal-up group bg-slate-950/80 p-10 border border-slate-800 hover:border-neon-violet/50 transition-all duration-800 rounded-sm relative overflow-hidden shake-on-hover" style={{ transitionDelay: '100ms' }}>
               <div className="absolute top-0 right-0 w-32 h-32 bg-neon-violet/10 blur-2xl rounded-full group-hover:bg-neon-violet/20 transition-all duration-1000"></div>
-              <div className="text-neon-violet mb-6 group-hover:text-glow-violet transition-all duration-500">
+              <div className="text-neon-violet mb-6 group-hover:text-glow-violet transition-all duration-500 icon-shake inline-block">
                 <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
               </div>
               <h3 className="text-2xl font-heading font-bold text-white mb-3">Neural-Sync Meditation</h3>
@@ -179,9 +179,9 @@ function App() {
             </div>
 
             {/* Service 3 */}
-            <div className="reveal-up group bg-slate-950/80 p-10 border border-slate-800 hover:border-neon-emerald/50 transition-all duration-800 rounded-sm relative overflow-hidden" style={{ transitionDelay: '200ms' }}>
+            <div className="reveal-up group bg-slate-950/80 p-10 border border-slate-800 hover:border-neon-emerald/50 transition-all duration-800 rounded-sm relative overflow-hidden shake-on-hover" style={{ transitionDelay: '200ms' }}>
               <div className="absolute top-0 right-0 w-32 h-32 bg-neon-emerald/10 blur-2xl rounded-full group-hover:bg-neon-emerald/20 transition-all duration-1000"></div>
-              <div className="text-neon-emerald mb-6 group-hover:text-glow-emerald transition-all duration-500">
+              <div className="text-neon-emerald mb-6 group-hover:text-glow-emerald transition-all duration-500 icon-shake inline-block">
                 <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
               </div>
               <h3 className="text-2xl font-heading font-bold text-white mb-3">IV Nutrient Infusions</h3>
@@ -192,9 +192,9 @@ function App() {
             </div>
 
             {/* Service 4 */}
-            <div className="reveal-up group bg-slate-950/80 p-10 border border-slate-800 hover:border-neon-violet/50 transition-all duration-800 rounded-sm relative overflow-hidden" style={{ transitionDelay: '300ms' }}>
+            <div className="reveal-up group bg-slate-950/80 p-10 border border-slate-800 hover:border-neon-violet/50 transition-all duration-800 rounded-sm relative overflow-hidden shake-on-hover" style={{ transitionDelay: '300ms' }}>
               <div className="absolute top-0 right-0 w-32 h-32 bg-neon-violet/10 blur-2xl rounded-full group-hover:bg-neon-violet/20 transition-all duration-1000"></div>
-              <div className="text-neon-violet mb-6 group-hover:text-glow-violet transition-all duration-500">
+              <div className="text-neon-violet mb-6 group-hover:text-glow-violet transition-all duration-500 icon-shake inline-block">
                 <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
               </div>
               <h3 className="text-2xl font-heading font-bold text-white mb-3">Bio-Hacking Consultation</h3>
